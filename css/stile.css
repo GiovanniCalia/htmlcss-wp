@@ -15,7 +15,7 @@ body{
 
 .logo{
     width: 20%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .header-box{
@@ -32,7 +32,7 @@ li > a{
 
 li{
     display: inline-block;
-    line-height: 3em;
+    line-height: 2em;
 }
 
 a{
@@ -40,7 +40,6 @@ a{
     color: lightgray;
     padding-right: 0.5em;
 }
-
 
 .banner{
     background-image: url(../img/banner.jpg);
@@ -97,9 +96,6 @@ h2{
     width: 200px;
     height: calc(400px - 20px);
     float: left;
-    margin-bottom: 20px;
-    border-radius: 10px;
-
 }
 
 .sinistra{
@@ -146,15 +142,21 @@ h2{
     border-radius: 10px;
 }
 
-.line-height-titolo{
+.h3-titolo{
     line-height: 3em;
     font-size: 1em;
 }
 
-.footer-box{
-    width: 100%;
-    height: 50px;
-    background-color: rgb(136, 1, 253);
-    margin-top: 10px;
+footer h4{
+    line-height: 1;
 }
 
+.footer-box{
+    text-align: center;
+}
+
+span{
+    color: red;
+    font-size: 2em;
+    padding-left: 0.1em;
+}
